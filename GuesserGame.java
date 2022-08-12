@@ -107,6 +107,9 @@ import java.util.Scanner;
             }
             else if (NumFromGuesser == NumFromPlayer3)
                 System.out.println("Player 3 won the game");
+          else {
+                System.out.println("Game lost! Try again");
+            }
         }
 
         public void Finalcompare1()
